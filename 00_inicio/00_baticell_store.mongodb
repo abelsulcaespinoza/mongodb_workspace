@@ -10,3 +10,6 @@ db.producto.insertOne({
 
 // Listar el documento creado
 db.producto.find();
+
+// Cuenta los documentos de la colección
+db.producto.find().count();
