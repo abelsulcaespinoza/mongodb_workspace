@@ -1,0 +1,12 @@
+use("baticell_store");
+
+// Crear colección de productos
+db.producto.insertOne({
+  name: "Huawei P30 Pro",
+  precio: 3000,
+  cantidad: 50,
+  color: ["rojo", "verde", "negro"],
+});
+
+// Listar el documento creado
+db.producto.find();
